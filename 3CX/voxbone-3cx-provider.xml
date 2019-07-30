@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<doc>
+  <header>
+    <name>Voxbone</name>
+    <time>2019-07-15T10:02:44.5695243Z</time>
+    <type>gateway-template</type>
+  </header>
+  <data>
+    <device>
+      <type>provider</type>
+      <manufacturer></manufacturer>
+      <model>provider</model>
+      <field name="Name">Voxbone</field>
+      <field name="RegistrarHost">voxbone.com</field>
+      <field name="RegistrarPort">5060</field>
+      <field name="ProxyHost">voxout.voxbone.com</field>
+      <field name="ProxyPort">5060</field>
+      <field name="RequireAuthFor">1</field>
+      <field name="IpInContactReg">1</field>
+      <field name="IpInContactRegValue"></field>
+      <field name="TimeBetweenRegistration">600</field>
+      <field name="RegistrarInvite">1</field>
+      <field name="IsSupportReinvite">0</field>
+      <field name="IsSupportReplaces">0</field>
+      <field name="DisableVideo">1</field>
+      <field name="SecureRTP">0</field>
+      <field name="IsBindToMS">1</field>
+      <codecs>
+        <codec rfcname="pcmu" />
+        <codec rfcname="pcma" />
+        <codec rfcname="g729" />
+        <codec rfcname="speex" />
+        <codec rfcname="g722" />
+        <codec rfcname="opus" />
+      </codecs>
+      <field name="Source" custom="" parameter="FromHostPart">$GWHostPort</field>
+      <field name="ParameterIn" custom="" parameter="ToUserPart">$CalledNum</field>
+      <field name="ParameterIn" custom="" parameter="FromUserPart">$CallerName</field>
+      <field name="ParameterIn" custom="" parameter="FromUserPart">$CallerNum</field>
+      <field name="ParameterOut" custom="" parameter="RequestLineURIUser">$CalledNum</field>
+      <field name="ParameterOut" custom="" parameter="RequestLineURIHost">$OutHostPort</field>
+      <field name="ParameterOut" custom="" parameter="ContactUser">$OutboundCallerId</field>
+      <field name="ParameterOut" custom="" parameter="ContactHost">$ContactUri</field>
+      <field name="ParameterOut" custom="" parameter="ToDisplayName">$CalledName</field>
+      <field name="ParameterOut" custom="" parameter="ToUserPart">$CalledNum</field>
+      <field name="ParameterOut" custom="" parameter="ToHostPart">$OutHostPort</field>
+      <field name="ParameterOut" custom="" parameter="FromDisplayName">$OutboundCallerId</field>
+      <field name="ParameterOut" custom="" parameter="FromUserPart">$OutboundCallerId</field>
+      <field name="ParameterOut" custom="" parameter="FromHostPart">$GWHostPort</field>
+      <field name="ParameterOut" custom="" parameter="RemotePartyIDCallingPartyDisplayName">$OutboundCallerId</field>
+      <field name="ParameterOut" custom="" parameter="RemotePartyIDCallingPartyUserPart">$OutboundCallerId</field>
+      <field name="ParameterOut" custom="" parameter="RemotePartyIDCallingPartyHostPart">$GWHostPort</field>
+    </device>
+  </data>
+</doc>
