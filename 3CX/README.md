@@ -23,4 +23,4 @@ You can easily import an XML file containing all the configuration options expla
 Here’s how you can configure authentication on your Voxbone trunk :
 1. For either authentication option, select “Do not require - IP Based” for “Type of Authentication”
 2. Recommended authentication method for outbound calls on Voxbone platform is SIP Digest. Enter your digest username and password generated from Voxbone portal. This can be done by logging in to the portal and generation of new credentials on Configure > Configure Outbound Voice
-[Setup SIP Authentication for Outbound Calls on 3CX VoIP Provider Settings](http://live-voxbonecom.pantheonsite.io/wp-content/uploads/2019/07/Screenshot-2019-07-15-at-13.47.03.png)
+![Setup SIP Authentication for Outbound Calls on 3CX VoIP Provider Settings](http://live-voxbonecom.pantheonsite.io/wp-content/uploads/2019/07/Screenshot-2019-07-15-at-13.47.03.png)
