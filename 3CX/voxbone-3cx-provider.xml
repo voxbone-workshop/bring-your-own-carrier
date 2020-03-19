@@ -38,14 +38,14 @@
       <field name="ParameterIn" custom="" parameter="FromUserPart">$CallerName</field>
       <field name="ParameterIn" custom="" parameter="FromUserPart">$CallerNum</field>
       <field name="ParameterOut" custom="" parameter="RequestLineURIUser">$CalledNum</field>
-      <field name="ParameterOut" custom="" parameter="RequestLineURIHost">$OutHostPort</field>
-      <field name="ParameterOut" custom="" parameter="ContactUser">$OutboundCallerId</field>
+      <field name="ParameterOut" custom="" parameter="RequestLineURIHost">81.201.89.110</field>
+      <field name="ParameterOut" custom="" parameter="ContactUser">$EnforcedOutboundCallerId</field>
       <field name="ParameterOut" custom="" parameter="ContactHost">$ContactUri</field>
       <field name="ParameterOut" custom="" parameter="ToDisplayName">$CalledName</field>
       <field name="ParameterOut" custom="" parameter="ToUserPart">$CalledNum</field>
-      <field name="ParameterOut" custom="" parameter="ToHostPart">$OutHostPort</field>
-      <field name="ParameterOut" custom="" parameter="FromDisplayName">$OutboundCallerId</field>
-      <field name="ParameterOut" custom="" parameter="FromUserPart">$OutboundCallerId</field>
+      <field name="ParameterOut" custom="" parameter="ToHostPart">81.201.89.110</field>
+      <field name="ParameterOut" custom="" parameter="FromDisplayName">$EnforcedOutboundCallerId</field>
+      <field name="ParameterOut" custom="" parameter="FromUserPart">$EnforcedOutboundCallerId</field>
       <field name="ParameterOut" custom="" parameter="FromHostPart">$GWHostPort</field>
       <field name="ParameterOut" custom="" parameter="RemotePartyIDCallingPartyDisplayName">$OutboundCallerId</field>
       <field name="ParameterOut" custom="" parameter="RemotePartyIDCallingPartyUserPart">$OutboundCallerId</field>
